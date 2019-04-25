@@ -1,0 +1,6 @@
+service apexd /system/bin/apexd
+    class core
+    critical
+    user root
+    group system
+    shutdown critical

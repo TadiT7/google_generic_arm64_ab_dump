@@ -1,0 +1,13 @@
+service gsid /system/bin/gsid
+    user root
+    group root system
+
+on post-fs
+    mkdir /metadata/gsi 0771 root system
+    start gsid
+
+on post-fs-data
+    mkdir /data/gsi 0700 root root
+
+on boot
+    exec - root root -- /system/bin/gsid run-startup-tasks

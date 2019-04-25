@@ -1,0 +1,12 @@
+
+#
+# ADDITIONAL PRODUCT PROPERTIES
+#
+ro.build.characteristics=default
+ro.opa.eligible_device=true
+ro.setupwizard.mode=OPTIONAL
+setupwizard.feature.predeferred_enabled=false
+ro.com.google.gmsversion=Q_beta
+ro.error.receiver.system.apps=com.google.android.gms
+ro.setupwizard.enterprise_mode=1
+ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent
